@@ -13,6 +13,8 @@
 
 El perceptrón es la forma más simple de una red neuronal usada para la clasificación de un tipo especial de patrones, los linealmente separables (es decir, patrones que se encuentran a ambos lados de un hiperplano). Básicamente, consiste de una neurona con pesos sinápticos y umbral ajustables, como se muestra en la figura (4.1). El algoritmo usado para ajustar los parámetros libres de esta red neuronal apareció por primera vez en un procedimiento de aprendizaje desarrollado por Rosenblatt (1958) para su modelo de perceptrón del cerebro. En realidad, Rosenblatt demostró que, si los patrones usados para entrenar el perceptrón son sacados de dos clases linealmente separables, entonces el algoritmo del perceptrón converge y toma como superficie de decisión un hiperplano entre estas dos clases. La prueba de convergencia del algoritmo es conocida como el teorema de convergencia del perceptrón.
 
+![Arquitectura ALU](/Img/Imagen1.png)
+
 El perceptrón de una capa descrito en la figura (4.1) tiene sólo una neurona. Dicho perceptrón está limitado a realizar clasificación de patrones con sólo dos clases. Expandiendo la capa de salida del perceptrón para incluir más que una neurona, podemos realizar dicha clasificación con más de dos clases. Sin embargo, las clases tendrían que ser linealmente separables para que el perceptrón trabaje correctamente.
 
 El **funcionamiento** del perceptrón es muy sencillo, simplemente lee los valores de entrada, suma todas las entradas de acuerdo a unos pesos y el resultado lo introduce en una función de activación que genera el resultado final.
@@ -50,6 +52,8 @@ Función de activación, g (.)
 Salida, Y
 
     Representa el valor resultante tras pasar por la red neuronal.
+    
+![Arquitectura ALU](/Img/Imagen2.png)
 
 ## DESARROLLO EXPERIMENTAL<a name="id2"></a>
 
